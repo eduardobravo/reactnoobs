@@ -1,0 +1,16 @@
+.rn-avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  &default{
+    background-color: skyblue;
+  }
+  &.female{
+    background-color: green;
+  }
+  &.male{
+    color: red;
+    background-color: black;
+  }
+}
